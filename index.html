@@ -22,7 +22,7 @@
   <body>
     <section>
       <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 border">
           <div class="container gap-4 d-flex">
             <img class="logo" src="/assets/paypal-mark-color.svg" alt="" />
             <button
@@ -52,10 +52,14 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active">Enterprise</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Enterprise</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active">Developer</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Developer</a
+                  >
                 </li>
               </ul>
               <div class="d-flex align-items-center gap-4 list-unstyled">
@@ -108,7 +112,9 @@
           </div>
         </div>
       </div>
+
       <!-- 1st Column -->
+
       <div class="container d-flex">
         <img class="w-100" src="/assets/BNPL-Video-Fallback.jpg" alt="" />
       </div>
@@ -120,60 +126,54 @@
       </div>
 
       <!-- 2nd Column -->
-      <section class="container d-flex flex-column gap-5 color-blue">
-        <div class="d-flex gap-5">
-          <div class="container d-flex flex-column">
-            <div class="d-flex flex-column gap-4">
-              <img class="icon-one" src="/assets/no-fee-blue.svg" alt="" />
-              <h3 class="fw-bold">No late Fees</h3>
-            </div>
-            <div>
-              <p>
-                Stretch your money with the power of Pay in 41 or Pay Monthly2.
-              </p>
-            </div>
+
+      <section class="container mx-auto row color-blue py-5 px-5">
+        <div class="col-lg-3 col-md-6 py-4">
+          <div>
+            <img class="icon-one my-3" src="/assets/no-fee-blue.svg" alt="" />
+            <h3 class="fw-bold my-3">No late Fees</h3>
+            <p>
+              Stretch your money with the power of Pay in 41 or Pay Monthly2.
+            </p>
           </div>
         </div>
-        <div class="d-flex gap-5">
-          <div class="container d-flex flex-column">
-            <div class="d-flex flex-column gap-4">
-              <img class="icon-one" src="/assets/worldwide-blue.svg" alt="" />
-              <h3 class="fw-bold">Widely available</h3>
-            </div>
-            <div>
-              <p>
-                Shop at your favorite brands, and enjoy the peace of mind to pay
-                later.
-              </p>
-            </div>
+        <div class="col-lg-3 col-md-6 py-4">
+          <div>
+            <img
+              class="icon-one my-3"
+              src="/assets/worldwide-blue.svg"
+              alt=""
+            />
+            <h3 class="fw-bold my-3">Widely available</h3>
+
+            <p>
+              Shop at your favorite brands, and enjoy the peace of mind to pay
+              later.
+            </p>
           </div>
         </div>
-        <div class="d-flex gap-5">
-          <div class="container d-flex flex-column">
-            <div class="d-flex flex-column gap-4">
-              <img class="icon-one" src="/assets/speed-blue.svg" alt="" />
-              <h3 class="fw-bold">Easy on your credit score</h3>
-            </div>
-            <div>
-              <p>
-                Choose Pay in 41 and relax knowing it won't impact your credit
-                score.
-              </p>
-            </div>
+        <div class="col-lg-3 col-md-6 py-4">
+          <div>
+            <img class="icon-one my-3" src="/assets/speed-blue.svg" alt="" />
+            <h3 class="fw-bold my-3">Easy on your credit score</h3>
+
+            <p>
+              Choose Pay in 41 and relax knowing it won't impact your credit
+              score.
+            </p>
           </div>
         </div>
-        <div class="d-flex gap-5">
-          <div class="container d-flex flex-column">
-            <div class="d-flex flex-column gap-4">
-              <img class="icon-one" src="/assets/trust-blue.svg" alt="" />
-              <h3 class="fw-bold">Backed by PayPal</h3>
-            </div>
-            <div>
-              <p>Enjoy Purchase and Fraud Protection on eligible purchases.3</p>
-            </div>
+        <div class="col-lg-3 col-md-6 py-4">
+          <div>
+            <img class="icon-one my-3" src="/assets/trust-blue.svg" alt="" />
+            <h3 class="fw-bold my-3">Backed by PayPal</h3>
+            <p>Enjoy Purchase and Fraud Protection on eligible purchases.3</p>
           </div>
         </div>
       </section>
+
+      <!-- 3rd column -->
+
       <section class="container">
         <div class="py-5">
           <h2 class="display-3 fw-bolder text-center color-blue">
@@ -207,6 +207,81 @@
             >Explore more details</a
           >
         </div>
+      </section>
+
+      <!-- table section -->
+      <section class="container">
+        <div class="fw-bolder text-center py-4">
+          <div class="d-flex justify-content-between">
+            <h2></h2>
+            <h4 class="fw-bold">Pay in 41</h4>
+            <h4 class="fw-bold">Pay in 41</h4>
+          </div>
+        </div>
+        <table class="table py-5 px-5">
+          <tbody>
+            <tr class="table-secondary">
+              <td>Purchase Amount</td>
+              <td class="border-one">$30 to $1,500</td>
+              <td class="border-one">$199 to $10,000</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Number of payments</td>
+              <td class="border-one">4 interest-free payments</td>
+              <td class="border-one">6, 12, or 24 payments</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Time between payments</td>
+              <td class="border-one">
+                Bi-weekly (1 down payment & 3 payments)
+              </td>
+              <td class="border-one">Monthly</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>APR</td>
+              <td class="border-one">0%</td>
+              <td class="border-one">
+                9.99-35.99%. Rates as low as 4.99% may be available
+              </td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Repayment method</td>
+              <td class="border-one">
+                Debit card, credit card, or confirmed bank account
+              </td>
+              <td class="border-one">Debit card or confirmed bank account</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Purchase Protection3</td>
+              <td class="border-one">Included</td>
+              <td class="border-one">Included</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Late fees</td>
+              <td class="border-one">None</td>
+              <td class="border-one">None*</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Sign-up Fees</td>
+              <td class="border-one">None</td>
+              <td class="border-one">None</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Autopay available</td>
+              <td class="border-one">
+                Automatically enrolled at time of purchase
+              </td>
+              <td class="border-one">
+                Enroll in autopay at time of purchase or any time after
+              </td>
+            </tr>
+            <tr class="table-secondary">
+              <td>Credit score impact</td>
+              <td class="border-one">None</td>
+              <td class="border-one">Yes, if approved</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </section>
   </body>

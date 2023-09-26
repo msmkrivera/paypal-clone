@@ -13,3 +13,7 @@
 .icon-one {
   width: 6em;
 }
+
+.border-one {
+  border-left: 0.0625rem solid;
+}
