@@ -3,17 +3,46 @@
 }
 
 .color-blue {
-  color: #003087;
+  color: #001c64;
 }
 
 .btn-nav-two {
   background-color: #003087;
 }
-
-.icon-one {
+e .icon-one {
   width: 6em;
 }
 
 .border-one {
   border-left: 0.0625rem solid;
+}
+
+.light-gray {
+  background-color: #faf8f5;
+}
+
+.gray {
+  background-color: #f3f3f3;
+}
+
+.color-gray {
+  color: #a9a7a7;
+}
+
+.yellow {
+  background-color: #ffd140;
+}
+
+.fa-location-arrow {
+  position: absolute !important;
+  right: 10px;
+  top: 10px;
+}
+
+.hover-scale {
+  transition: 300ms ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
 }

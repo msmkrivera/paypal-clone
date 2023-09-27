@@ -11,10 +11,19 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous"">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <title>Paypal Clone</title>
@@ -200,7 +209,7 @@
       </section>
       <!-- skip tempo -->
       <!-- pay later section -->
-      <section class="container d-flex flex-column align-items-center">
+      <section class="container d-flex flex-column align-items-center py-5">
         <div>
           <h2 class="fw-bolder display-6 color-blue">How Pay Later works</h2>
           <a class="fw-bold fs-5 text-decoration-none text-center" href=""
@@ -210,78 +219,303 @@
       </section>
 
       <!-- table section -->
-      <section class="container">
-        <div class="fw-bolder text-center py-4">
-          <div class="d-flex justify-content-between">
-            <h2></h2>
-            <h4 class="fw-bold">Pay in 41</h4>
-            <h4 class="fw-bold">Pay in 41</h4>
+      <section
+        class="container light-gray color-blue rounded-top-5 pt-4 pb-2 rounded-end-4"
+      >
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4 px-3 py-3 fw-bolder fs-5">Pay in 41</div>
+          <div class="col-4 px-3 py-3 fw-bolder fs-5">Pay Monthly2</div>
+        </div>
+
+        <!-- row-one -->
+        <div class="row">
+          <div class="col-4 px-3 py-3">Purchase Amount</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end">
+            $30 to $1,500
+          </div>
+
+          <div class="col-4 px-3 py-3">$199 to $10,000</div>
+        </div>
+
+        <!-- row-two -->
+        <div class="row">
+          <div class="col-4 px-3 py-3 gray rounded-start-4">
+            Number of payments
+          </div>
+
+          <div class="col-4 px-3 py-3 border-start border-end gray">
+            4 interest-free payments
+          </div>
+
+          <div class="col-4 px-3 py-3 rounded-end-4 gray">
+            6, 12, or 24 payments
           </div>
         </div>
-        <table class="table py-5 px-5">
-          <tbody>
-            <tr class="table-secondary">
-              <td>Purchase Amount</td>
-              <td class="border-one">$30 to $1,500</td>
-              <td class="border-one">$199 to $10,000</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Number of payments</td>
-              <td class="border-one">4 interest-free payments</td>
-              <td class="border-one">6, 12, or 24 payments</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Time between payments</td>
-              <td class="border-one">
-                Bi-weekly (1 down payment & 3 payments)
-              </td>
-              <td class="border-one">Monthly</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>APR</td>
-              <td class="border-one">0%</td>
-              <td class="border-one">
-                9.99-35.99%. Rates as low as 4.99% may be available
-              </td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Repayment method</td>
-              <td class="border-one">
-                Debit card, credit card, or confirmed bank account
-              </td>
-              <td class="border-one">Debit card or confirmed bank account</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Purchase Protection3</td>
-              <td class="border-one">Included</td>
-              <td class="border-one">Included</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Late fees</td>
-              <td class="border-one">None</td>
-              <td class="border-one">None*</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Sign-up Fees</td>
-              <td class="border-one">None</td>
-              <td class="border-one">None</td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Autopay available</td>
-              <td class="border-one">
-                Automatically enrolled at time of purchase
-              </td>
-              <td class="border-one">
-                Enroll in autopay at time of purchase or any time after
-              </td>
-            </tr>
-            <tr class="table-secondary">
-              <td>Credit score impact</td>
-              <td class="border-one">None</td>
-              <td class="border-one">Yes, if approved</td>
-            </tr>
-          </tbody>
-        </table>
+
+        <!-- row-3 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3">Time between payments</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end">
+            Bi-weekly (1 down payment & 3 payments)
+          </div>
+
+          <div class="col-4 px-3 py-3">Monthly</div>
+        </div>
+
+        <!-- row-4 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3 gray rounded-start-4">APR</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end gray">0%</div>
+
+          <div class="col-4 px-3 py-3 rounded-end-4 gray">
+            9.99-35.99%. Rates as low as 4.99% may be available
+          </div>
+        </div>
+
+        <!-- row-5 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3">Repayment method</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end">
+            Debit card, credit card, or confirmed bank account
+          </div>
+
+          <div class="col-4 px-3 py-3">
+            Debit card or confirmed bank account
+          </div>
+        </div>
+
+        <!-- row-6 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3 gray rounded-start-4">
+            Purchase Protection3
+          </div>
+
+          <div class="col-4 px-3 py-3 border-start border-end gray">
+            Included
+          </div>
+
+          <div class="col-4 px-3 py-3 rounded-end-4 gray">Included</div>
+        </div>
+
+        <!-- row-7 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3">Late fees</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end">None</div>
+
+          <div class="col-4 px-3 py-3">None*</div>
+        </div>
+
+        <!-- row-8 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3 gray rounded-start-4">Sign-up Fees</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end gray">None</div>
+
+          <div class="col-4 px-3 py-3 rounded-end-4 gray">None</div>
+        </div>
+
+        <!-- row-9 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3">Autopay available</div>
+
+          <div class="col-4 px-3 py-3 border-start border-end">
+            Automatically enrolled at time of purchase
+          </div>
+
+          <div class="col-4 px-3 py-3">
+            Enroll in autopay at time of purchase or any time after
+          </div>
+        </div>
+
+        <!-- row-8 -->
+        <div class="row">
+          <div class="col-4 px-3 py-3 gray rounded-start-4">
+            Credit score impact
+          </div>
+
+          <div class="col-4 px-3 py-3 border-start border-end gray">None</div>
+
+          <div class="col-4 px-3 py-3 rounded-end-4 gray">Yes, if approved</div>
+        </div>
+      </section>
+      <p class="py-5 container color-blue fw-semibold">
+        * Missed payments may have an impact on your credit score.
+      </p>
+
+      <!-- phone section -->
+      <section>
+        <div class="yellow">
+          <!-- show on mobile -->
+          <h2 class="text-center d-lg-none display-4 fw-bolder color-blue py-5">
+            Buy what you love now. Pay later.
+          </h2>
+          <!-- shows on lg -->
+          <h2
+            class="d-none d-lg-block display-3 text-center fw-bolder color-blue py-5"
+          >
+            Buy what you love now. Pay <br />
+            later.
+          </h2>
+        </div>
+        <section class="container row px-4">
+          <div class="col-lg-6">
+            <img class="w-100" src="/assets/cp.webp" alt="" />
+          </div>
+          <div class="col-lg-6 d-flex align-items-center color-blue">
+            <div class="">
+              <h1 class="display-5 fw-bolder">
+                Choose PayPal at <br />
+                checkout
+              </h1>
+              <h6 class="fw-bold fs-3 py-3">
+                Then select Pay Later before picking a payment option.
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <section class="container py-5">
+          <div>
+            <h1 class="fw-bolder color-blue display-3">
+              Pay Later with these top <br />
+              brands
+            </h1>
+            <a class="fw-bold fs-6 text-decoration-none text-center" href=""
+              >Explore more details</a
+            >
+          </div>
+        </section>
+
+        <!-- sponsors section -->
+
+        <section class="container mx-auto row py-5">
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/best-buy.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="py-2 col-6 col-lg-4 col-xl-3">
+            <div
+              class="light-gray px-2 rounded-4 border position-relative hover-scale"
+            >
+              <i class="fa-solid fa-location-arrow fs-5 color-gray"></i>
+              <div class="">
+                <img class="w-100" src="/assets/apple-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </section>
   </body>
