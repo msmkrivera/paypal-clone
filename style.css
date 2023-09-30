@@ -46,3 +46,16 @@ e .icon-one {
 .hover-scale:hover {
   transform: scale(1.1);
 }
+
+.hover-scale-two {
+  transition: 150ms ease-in-out;
+}
+
+.hover-scale-two:hover {
+  transform: scale(0.9);
+}
+
+.img {
+  width: 50px;
+  height: auto;
+}
