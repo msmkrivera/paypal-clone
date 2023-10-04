@@ -35,11 +35,14 @@
   </head>
   <body>
     <section>
+      <!-- Desktop Nav View will be SHOW -->
+
       <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 border">
+        <nav class="d-none d-lg-block navbar navbar-expand-lg py-2 border">
           <div class="container gap-4 d-flex">
             <img class="logo" src="/assets/paypal-mark-color.svg" alt="" />
-            <button
+
+            <!-- <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -49,9 +52,9 @@
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse">
               <ul
                 class="d-flex gap-4 list-unstyled me-auto mb-2 mb-lg-0 fw-semibold color-blue"
               >
@@ -82,6 +85,9 @@
                   class="d-flex fw-bold text-dark text-decoration-none color-blue"
                   >Help</a
                 >
+                <!-- BURGER MENU -->
+                <!-- BTN LOG IN & SIGN UP -->
+
                 <button
                   class="btn-nav d-flex px-4 py-2 rounded-pill fw-bolder border-1 bg-white"
                   role="search"
@@ -93,6 +99,153 @@
                 >
                   Sign Up
                 </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- MOBILE Nav View will be SHOW -->
+
+      <div>
+        <nav class="navbar navbar-expand-lg py-1 border d-lg-none">
+          <div class="container">
+            <img class="logo" src="/assets/paypal-mark-color.svg" alt="" />
+
+            <!-- BTN LOG IN & SIGN UP -->
+            <div class="d-flex gap-3">
+              <button
+                class="btn-nav px-3 rounded-pill fw-bolder border-1 bg-white"
+              >
+                Log in
+              </button>
+              <button
+                class="btn-nav-two px-3 fw-bolder rounded-pill text-white"
+              >
+                Sign Up
+              </button>
+
+              <!-- BURGER MENU -->
+
+              <button
+                class="border-0 bg-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item border border-start-0 border-end-0">
+                  <h2 class="accordion-header mt-3">
+                    <button
+                      class="accordion-button collapsed fw-bold fs-6"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Personal
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold fs-6"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      Business
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold fs-6"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Enterprise
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold fs-6"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Developer
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold fs-6"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Help
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -833,7 +986,7 @@
       </div>
     </section>
 
-    <!-- footer list -->
+    <!-- footer  -->
     <footer>
       <div class="container">
         <div class="row">
