@@ -9,6 +9,10 @@ body {
   color: #001c64;
 }
 
+.light-blue {
+  color: #003087;
+}
+
 .btn-nav-two {
   background-color: #003087;
   border: none;
@@ -62,4 +66,8 @@ e .icon-one {
 .img {
   width: 50px;
   height: auto;
+}
+
+.border-color {
+  border-color: #001c64;
 }
